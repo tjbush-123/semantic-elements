@@ -2,22 +2,28 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+My motivation for this was to get a broken website up and running again.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+I fixed this website so that anyone that wants to gain information about certain topics can learn those topics.
+
+The problem that it solves is letting the viewer gain information about 6 topics.
+
+I learned how to organize semantic elements in order to have a clean and efficient way of coding.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To use this website there are navigators in the top header. There are also short descriptions for the specific contents. For example for the search engine section it says "The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home." 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
+{
     ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    ![alt text](assets/images/brand-awareness.png)
+    ![alt text](assets/images/cost-management.png)
+    ![alt text](assets/images/digital-marketing-meeting.jpg)
+    ![alt text](assets/images/lead-generation.png)
+    ![alt text](assets/images/online-reputation-management.jpg)
+    ![alt text](assets/images/search-engine-optimization.jpg)
+    ![alt text](assets/images/social-media-marketing.jpg)
+    ```}
 
 ## License
 
