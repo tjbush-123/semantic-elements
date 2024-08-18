@@ -1,36 +1,36 @@
-:root{
-    --grey: #d9dcd6;
-    --white: #ffffff;
-    --teal: #2a607c;
-    --blue: #0072bb;
-}
-
+/*Universal Selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Element Selectors*/
 body {
-    background-color: var(--grey);
+    background-color: #d9dcd6;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
 }
 
+/*Header Section*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--teal);
-    color: var(--white);
+    background-color: #2a607c;
+    color: #ffffff;
 }
-
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
 header h1 .seo {
-    color: var(--grey);
+    color: #d9dcd6;
 }
-
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,25 +38,13 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 header nav ul {
     list-style-type: none;
 }
-
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
-    color: var(--white);
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -66,6 +54,7 @@ p {
     background-position: center;
 }
 
+/*Float Section*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -82,6 +71,7 @@ main {
     margin-left: 20px;
 }
 
+/*Benefits Section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,50 +80,46 @@ main {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--blue);
+    background-color: #2589bd;
 }
-
 .benefit {
     margin-bottom: 32px;
-    color: var(--white);
+    color: #ffffff;
 }
-
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Service Section*/
 .services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--blue);
-    color: var(--white);
+    background-color: #0072bb;
+    color: #ffffff;
 }
-
 .services img {
     max-height: 200px;
 }
-
 .services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Footer Section*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
 footer h2 {
     font-size: 20px;
 }

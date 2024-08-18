@@ -2,28 +2,15 @@
 
 ## Description
 
-My motivation for this was to get a broken website up and running again.
-
-I fixed this website so that anyone that wants to gain information about certain topics can learn those topics.
-
-The problem that it solves is letting the viewer gain information about 6 topics.
-
-I learned how to organize semantic elements in order to have a clean and efficient way of coding.
+My motivation for this was to get a broken website up and running again. I fixed this website so that anyone that wants to gain information about certain topics can learn those topics. The problem that it solves is letting the viewer gain information about 6 topics. I learned how to organize semantic elements in order to have a clean and efficient way of coding.
 
 ## Usage
 
 To use this website there are navigators in the top header. There are also short descriptions for the specific contents. For example for the search engine section it says "The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home." 
 
-{
-    ```md
-    ![alt text](assets/images/brand-awareness.png)
-    ![alt text](assets/images/cost-management.png)
-    ![alt text](assets/images/digital-marketing-meeting.jpg)
-    ![alt text](assets/images/lead-generation.png)
-    ![alt text](assets/images/online-reputation-management.jpg)
-    ![alt text](assets/images/search-engine-optimization.jpg)
-    ![alt text](assets/images/social-media-marketing.jpg)
-    ```}
+## Credits
+
+This was a solo project.
 
 ## License
 
